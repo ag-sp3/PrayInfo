@@ -1,0 +1,9 @@
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\PrayIntro.exe.config
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\PrayIntro.XML
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\PrayIntro.exe
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\PrayIntro.pdb
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\FSharp.Core.dll
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\FSharp.Core.xml
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\obj\Debug\PrayIntro.exe
+C:\Lemon\Personal\Desktop\Sync\VSProjects\PrayIntro\PrayIntro\obj\Debug\PrayIntro.pdb
