@@ -6,7 +6,7 @@ open System.Text.RegularExpressions
 let str_to_array (str: string) = str.ToCharArray() |> Array.map (fun c -> c.ToString())
 let tiangan = "甲乙丙丁戊己庚辛壬癸" |> str_to_array
 let dizhi = "子丑寅卯辰巳午未申酉戌亥" |> str_to_array
-let prayables = "乙丑甲戌甲申己亥己酉甲寅庚申丙戌"
+let prayables = "乙丑甲戌甲申己丑己亥己酉甲寅庚申丙戌"
 
 let index (ld:string) = 
     let t = tiangan |> Array.findIndex (fun x -> x = ld.[0].ToString())
@@ -49,8 +49,8 @@ let is_prayable (date:string, lday:string) :bool = if prayables.IndexOf(lday) >=
 
 [<EntryPoint>]
 let main argv =     
-    let all_lunardasy_2014 =  get_lunardays_with_range (DateTime.Now.ToString("yyyy-MM-dd")) "2014-12-31" |> List.toArray
-    Array.FindAll(all_lunardasy_2014, (fun x -> x |> is_prayable))
+    let all_lunardasy_2015 =  get_lunardays_with_range (DateTime.Now.ToString("yyyy-MM-dd")) "2016-12-31" |> List.toArray
+    Array.FindAll(all_lunardasy_2015, (fun x -> x |> is_prayable))
         |> Array.iter (fun (d, l) -> printfn "%s" (d + "\t" + l))
     Console.ReadLine() |> ignore
     0
